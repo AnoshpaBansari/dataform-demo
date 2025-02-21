@@ -1,0 +1,11 @@
+config {
+    type: "view", // Creates a view in BigQuery. Try changing to "table" instead.
+    columns: {
+        test: "A description for the test column", // Column descriptions are pushed to BigQuery.
+    }
+}
+
+SELECT
+  *
+FROM
+  pv-analysis-nrw.load_profiles.aachen_raw

@@ -1,5 +1,5 @@
 defaultProject: pv-analysis-nrw
-defaultLocation: EU
-defaultDataset: dataform
+defaultLocation: US
+defaultDataset: load_profiles
 defaultAssertionDataset: dataform_assertions
 dataformCoreVersion: 3.0.0
